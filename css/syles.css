@@ -11,20 +11,24 @@
 }
 
 .jumbotron h1{
-    padding: 20px;
+    padding-top: 100px;
     color: palevioletred;
     text-align: center;
     font-family: 'Brush Script MT';
     font-weight: bold;
 }
 
-.jumbotron p{
+.imagen { 
+    margin: auto;
+}
+
+.jumbotron p {
     color: white;
     text-align: center;
 }
 
 .mb-3 {
-    color: grey;
+   padding-top: 20px;
 }
 
 .boton {
@@ -70,18 +74,39 @@
     .pieTexto h5 {
         font-size: smaller;
     }
+    .boton {
+        padding-left: 100px;
+    }
+    .imagen {
+        padding-left: 10px;
+    }
+
+    .jumbotron {
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .jumbotron h1{
+        padding-top: 20px;
+    }
 }
+
 @media (min-width: 468px) and (max-width:768px){
 
-   .jumbotron {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin: auto;
-   }
+    .jumbotron {
+        display: flex;
+    }
    .jumbotron h1 {
+    padding-top: 20px;
     font-size: 26px;
    }
    .jumbotron p {
     font-size: 16px;
    }
+
+   .mb-3 {
+    padding-top: 200px;
+    width: 200px;
+    padding-right: 20px;
+
+ }
 }
