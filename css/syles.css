@@ -5,9 +5,6 @@
     margin: auto;
 }
 
-.imagen {
-    align-items: center;
-}
 
 .jumbotron {
     background-color: pink;
@@ -17,7 +14,7 @@
     padding: 20px;
     color: palevioletred;
     text-align: center;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Brush Script MT';
     font-weight: bold;
 }
 
@@ -30,3 +27,61 @@
     color: grey;
 }
 
+.boton {
+    padding-bottom: 20px;
+}
+
+.cards1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-body {
+    background-color: #777777;
+    color: #fff;
+    font-size: 16px;
+}
+
+.card-title {
+    color:#fff;
+    font-weight: 100;
+    font-size: 26px;
+    font-family: 'Brush Script MT';
+}
+.pie {
+    background-color: pink ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 20vh;
+    padding-top: 20px;
+
+}
+.pieTexto h3 {
+    font-family: 'Brush Script MT';
+    color:palevioletred;
+    font-weight: bold;
+}
+.pieTexto h5 {
+    color: white;
+    font-size: 16px;
+}
+
+@media (min-width: 320px) and (max-width:467px){
+    .pieTexto h5 {
+        font-size: smaller;
+    }
+}
+@media (min-width: 468px) and (max-width:768px){
+
+   .jumbotron {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+   }
+   .jumbotron h1 {
+    font-size: 26px;
+   }
+   .jumbotron p {
+    font-size: 16px;
+   }
+}
