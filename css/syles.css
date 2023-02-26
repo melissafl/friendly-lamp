@@ -1,0 +1,32 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    margin: auto;
+}
+
+.imagen {
+    align-items: center;
+}
+
+.jumbotron {
+    background-color: pink;
+}
+
+.jumbotron h1{
+    padding: 20px;
+    color: palevioletred;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+}
+
+.jumbotron p{
+    color: white;
+    text-align: center;
+}
+
+.mb-3 {
+    color: grey;
+}
+
