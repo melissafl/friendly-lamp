@@ -3,11 +3,18 @@
     flex-direction: column;  
     width: 100%;
     margin: auto;
+    height: 50px;
 }
 
 
+
+
 .jumbotron {
-    background-color: pink;
+    background-image: url("../assets/imgs/HM2.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .jumbotron h1{
@@ -18,9 +25,6 @@
     font-weight: bold;
 }
 
-.imagen { 
-    margin: auto;
-}
 
 .jumbotron p {
     color: white;
@@ -131,39 +135,40 @@
     padding-right: 20px;
     }
     .registro {
-        padding-left: 20px;
+        padding-left: 0px;
     }
 }
 
 @media (min-width: 1025px) {
-    .navbar-nav {
-        padding-left: 1500px;
-    }
+    
     .jumbotron {
         display: flex;
         flex-direction: row;
+        height: 500px;
+        padding-left: 800px;
+        
     }
 
-    .imagen{
-        padding-right: 50px;
+    .registro{
+        padding-left: 100px;
     }
 
    .jumbotron h1 {
     padding-top: 50px;
     font-size: 40px;
     padding-left: 50px;
+
    }
    .jumbotron p {
     font-size: 16px;
     padding-left: 20px;
+    padding-top: 50px;
    }
 
    .mb-3 {
     padding-top: 100px;
-    width: 400px;
     padding-right: 20px;
     }
-    .registro {
-        padding-left: 400px;
-    }
+
+
 }
